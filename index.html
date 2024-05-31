@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Age Calculator</title>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white flex justify-between p-2">
+        <h1  >Age-Calculator</h1>
+        <ul class="flex justify-between ">
+            <li><a class=" p-2 text-center hover:text-blue-500" href="#home">Home</a></li>
+           
+        </ul>
+    </nav>
+    <main class="flex justify-center pt-4 ">
+        <form id="ageForm"  class="flex  flex-col text-center ">
+            <label for="dob">Date of birth</label>
+            <input class="w-36 text-center p-2 mt-2  " type="date" name="dob" id="dob">
+            <label for="date">Todays date</label>
+            <input class="w-36 text-center p-2 mt-2 " type="date" name="date" id="date">
+            <button type="submit"  class="bg-blue-500 text-white mt-4 hover:bg-blue-600">Calculate</button>
+        </form>
+    </main>
+    <section class="text-center h-[46vh] pt-4 text-lg ">
+        <h1>Here is your result:</h1>
+        <p id="Age">Age - </p>
+    
+    </section>
+
+    <footer class="text-sm text-center bg-white h-[20vh]  p-4">
+        <h6>All right reserved 2024 &copy </h6>
+        <p>Power by Parasmani khunte</p>
+         
+         
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
